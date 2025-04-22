@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'chatbot_app/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'chatbot_app/css/style.css' %}">
+    {% csrf_token %}
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot-message">
+                Hello! I'm your friendly neighbourhood chatbot. How can I help you today?
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="message-input" placeholder="Type your message here...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="{% static 'chatbot_app/js/chat.js' %}"></script>
+</body>
+</html> 
