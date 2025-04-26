@@ -46,15 +46,12 @@ fonttools==4.53.0
 fqdn==1.5.1
 frozenlist==1.5.0
 gast==0.6.0
-google-ai-generativelanguage==0.6.15
 google-api-core==2.22.0
 google-api-python-client==2.163.0
 google-auth==2.36.0
 google-auth-httplib2==0.2.0
-google-cloud-aiplatform==1.71.1
 google-cloud-bigquery==3.26.0
 google-cloud-core==2.4.1
-google-cloud-resource-manager==1.13.0
 google-cloud-storage==2.18.2
 google-crc32c==1.6.0
 google-generativeai==0.8.5
@@ -63,7 +60,7 @@ google-resumable-media==2.7.2
 googleapis-common-protos==1.65.0
 grpc-google-iam-v1==0.13.1
 grpcio==1.67.1
-grpcio-status==1.67.1
+grpcio-status==1.51.1
 gunicorn==23.0.0
 h11==0.14.0
 h5py==3.12.1
@@ -135,9 +132,9 @@ pillow==10.3.0
 platformdirs==4.2.2
 prometheus_client==0.20.0
 prompt_toolkit==3.0.45
+protobuf>=4.25.3,<5.0.0
 propcache==0.3.0
 proto-plus==1.25.0
-protobuf==4.25.7
 psutil==5.9.8
 pure-eval==0.2.2
 pyasn1==0.6.1
@@ -160,7 +157,6 @@ python-json-logger==2.0.7
 python3-openid==3.2.0
 pytweening==1.2.0
 pytz==2021.3
-pywinpty==2.0.13
 PyYAML==6.0.1
 pyzmq==26.0.3
 referencing==0.35.1
@@ -191,7 +187,6 @@ sympy==1.12.1
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorflow==2.18.0
-tensorflow_intel==2.18.0
 termcolor==2.5.0
 terminado==0.18.1
 threadpoolctl==3.5.0
